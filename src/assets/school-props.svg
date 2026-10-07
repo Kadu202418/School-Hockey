@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#e9bd7a"/><stop offset="1" stop-color="#bd8150"/></linearGradient>
+    <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#aab9b4"/><stop offset="1" stop-color="#758881"/></linearGradient>
+    <linearGradient id="green" x2="0" y2="1"><stop stop-color="#b6c99d"/><stop offset="1" stop-color="#758e69"/></linearGradient>
+    <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#9dc9d2"/><stop offset="1" stop-color="#5d8d9c"/></linearGradient>
+    <linearGradient id="coral" x2="0" y2="1"><stop stop-color="#f3a084"/><stop offset="1" stop-color="#ce6754"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#35483d" flood-opacity=".2"/></filter>
+  </defs>
+
+  <!-- Classroom desk -->
+  <g transform="translate(0 0)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M42 143h18v76H42m153-76h18v76h-18" stroke="#68736a" stroke-width="10"/>
+    <path d="M24 105q0-10 10-10h176q10 0 10 10v47H24z" fill="url(#wood)" stroke="#986943" stroke-width="6"/>
+    <path d="M36 107h173M45 118h155" stroke="#f1d099" stroke-width="4" opacity=".7"/>
+    <path d="M86 90l28-28 72 18-30 33z" fill="#5f8c82" stroke="#476d66" stroke-width="5"/>
+    <path d="M111 66l67 17m-49-23 65 17" stroke="#d8e3d0" stroke-width="3"/>
+    <path d="M152 55l57 18" stroke="#e77d5f" stroke-width="7"/>
+    <circle cx="199" cy="70" r="4" fill="#f4d47b"/>
+  </g>
+
+  <!-- Stacked books -->
+  <g transform="translate(256 0)" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M43 171h169v37H43z" fill="#d87a58" stroke="#a95143" stroke-width="6"/>
+    <path d="M52 180h151m-151 9h151" stroke="#f7dfad" stroke-width="4"/>
+    <path d="M63 124h158v42H63z" fill="#779d80" stroke="#527561" stroke-width="6"/>
+    <path d="M73 134h139m-139 9h139" stroke="#e4e9d3" stroke-width="4"/>
+    <path d="M32 79l151-18 8 49-151 18z" fill="#7296ac" stroke="#4b6d83" stroke-width="6"/>
+    <path d="M47 88l124-15m-119 25 125-15" stroke="#e8e0c6" stroke-width="4"/>
+    <path d="M41 79l-2 48" stroke="#f2c55b" stroke-width="7"/>
+    <path d="M94 151v12m19-12v12m19-12v12" stroke="#e5c06f" stroke-width="4"/>
+  </g>
+
+  <!-- Locker -->
+  <g transform="translate(512 0)" stroke-linejoin="round" filter="url(#shadow)">
+    <rect x="62" y="27" width="132" height="210" rx="11" fill="url(#green)" stroke="#61785e" stroke-width="7"/>
+    <path d="M76 43h103v87H76zM76 143h103v77H76z" fill="#91a987" stroke="#71876a" stroke-width="4"/>
+    <path d="M86 57h83m-83 9h83m-83 9h83m-83 9h83m-83 9h83" stroke="#b6c9a8" stroke-width="3" opacity=".8"/>
+    <path d="M168 157v40" stroke="#58735b" stroke-width="5"/>
+    <circle cx="161" cy="179" r="4" fill="#edcb74" stroke="#fff0bd" stroke-width="2"/>
+    <rect x="91" y="143" width="38" height="25" rx="4" fill="#d87b5e"/>
+    <path d="M101 151h18" stroke="#ffe3ba" stroke-width="3"/>
+  </g>
+
+  <!-- Hall bench -->
+  <g transform="translate(768 0)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M51 130h20v92H51m126-92h20v92h-20" stroke="#586c69" stroke-width="9"/>
+    <path d="M40 103h180v24H40z" fill="url(#wood)" stroke="#986943" stroke-width="5"/>
+    <path d="M48 136h164v26H48z" fill="#bd8150" stroke="#986943" stroke-width="5"/>
+    <path d="M59 109h140m-138 34h126" stroke="#f1d099" stroke-width="4"/>
+    <path d="M75 164v43m96-43v43" stroke="#71807a" stroke-width="7"/>
+    <circle cx="59" cy="115" r="3" fill="#855b3c"/><circle cx="201" cy="115" r="3" fill="#855b3c"/>
+  </g>
+
+  <!-- Trash bin -->
+  <g transform="translate(0 256)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M74 82h112l-12 136H86z" fill="url(#blue)" stroke="#527b83" stroke-width="7"/>
+    <path d="M63 68h135v22H63z" fill="#5b8990" stroke="#466d75" stroke-width="6"/>
+    <path d="M105 55h50" stroke="#466d75" stroke-width="8"/>
+    <path d="M96 105v91m34-91v91m34-91-7 91" stroke="#c9e1db" stroke-width="5" opacity=".7"/>
+    <path d="M116 145q13-22 25 0-12 20-25 0zm4-3 20 8m-19-3 15-16" stroke="#eef2d9" stroke-width="4"/>
+  </g>
+
+  <!-- Library bookshelf -->
+  <g transform="translate(256 256)" stroke-linejoin="round" filter="url(#shadow)">
+    <rect x="29" y="26" width="198" height="210" rx="7" fill="#986849" stroke="#704b37" stroke-width="7"/>
+    <path d="M40 98h176v13H40zm0 64h176v13H40z" fill="#d9aa70" stroke="#80583d" stroke-width="4"/>
+    <path d="M49 48h27v46H49z" fill="#d9795d"/><path d="M82 39h31v55H82z" fill="#809e7e"/><path d="M119 51h26v43h-26z" fill="#7195ac"/><path d="M151 42h25v52h-25z" fill="#edc75c"/><path d="M181 48h24v46h-24z" fill="#bb8060"/>
+    <path d="M47 112h36v48H47z" fill="#73969f"/><path d="M89 120h27v40H89z" fill="#d9755c"/><path d="M121 114h37v46h-37z" fill="#dda64e"/><path d="M164 117h40v43h-40z" fill="#78916f"/>
+    <path d="M47 176h25v49H47z" fill="#dfa54e"/><path d="M78 180h39v45H78z" fill="#bd7359"/><path d="M124 174h30v51h-30z" fill="#7695a7"/><path d="M161 181h43v44h-43z" fill="#d6bd93"/>
+    <path d="M57 52v34m37-36v36m39-31v32m30-37v37m30-31v30" stroke="#f0ddbb" stroke-width="3" opacity=".7"/>
+  </g>
+
+  <!-- Science workbench -->
+  <g transform="translate(512 256)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M44 123h18v91H44m146-91h18v91h-18" stroke="#71817a" stroke-width="9"/>
+    <rect x="29" y="91" width="207" height="42" rx="7" fill="url(#metal)" stroke="#637872" stroke-width="6"/>
+    <path d="M46 102h174" stroke="#e6eee1" stroke-width="5"/>
+    <path d="M74 86V57h12l5 19 23-36 12 7-22 39" fill="#d9e9df" stroke="#74968b" stroke-width="5"/>
+    <path d="M91 77h12l11 22H81z" fill="#7eb7b0" stroke="#548a83" stroke-width="4"/>
+    <path d="M162 90V58m-10 0h21m-18-9h15" stroke="#e7795d" stroke-width="6"/>
+    <path d="M155 58h15v29h-15z" fill="#f0d887" stroke="#ba9850" stroke-width="4"/>
+    <path d="M159 73h7" stroke="#fff4c3" stroke-width="4"/>
+  </g>
+
+  <!-- Microscope -->
+  <g transform="translate(768 256)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M93 45l28-15 52 69-28 17z" fill="url(#blue)" stroke="#4e7180" stroke-width="7"/>
+    <path d="M86 37l38-20 13 20-38 21z" fill="#5b7984" stroke="#405d67" stroke-width="5"/>
+    <path d="M135 91q34 9 32 43-3 24-29 32" stroke="#758e8d" stroke-width="16"/>
+    <path d="M90 130h81v16H90z" fill="#d7a85c" stroke="#94703e" stroke-width="5"/>
+    <path d="M112 147q-8 38-42 42" stroke="#718782" stroke-width="12"/>
+    <path d="M59 187h113q10 0 10 10v11H59q-10 0-10-10t10-11z" fill="#8fa8a2" stroke="#536f6a" stroke-width="6"/>
+    <circle cx="162" cy="112" r="10" fill="#e7bb56" stroke="#9b793f" stroke-width="4"/>
+    <path d="M79 111h38" stroke="#e6d597" stroke-width="5"/>
+  </g>
+
+  <!-- Cafeteria table -->
+  <g transform="translate(0 512)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M48 116h18v105H48m142-105h18v105h-18" stroke="#7a684f" stroke-width="9"/>
+    <path d="M30 85q0-10 10-10h175q10 0 10 10v43H30z" fill="url(#wood)" stroke="#986943" stroke-width="6"/>
+    <path d="M44 88h168" stroke="#f3d399" stroke-width="5"/>
+    <path d="M67 139h134" stroke="#9b6d43" stroke-width="5"/>
+    <path d="M55 98h30m10 0h25" stroke="#c18a50" stroke-width="3"/>
+  </g>
+
+  <!-- Lunch tray -->
+  <g transform="translate(256 512)" stroke-linejoin="round" filter="url(#shadow)">
+    <rect x="27" y="75" width="204" height="118" rx="21" fill="#91adb0" stroke="#5d7d82" stroke-width="7"/>
+    <rect x="42" y="89" width="81" height="87" rx="13" fill="#dce6d7" stroke="#779398" stroke-width="4"/>
+    <rect x="133" y="89" width="83" height="38" rx="10" fill="#e8d8ae" stroke="#779398" stroke-width="4"/>
+    <rect x="133" y="139" width="83" height="37" rx="10" fill="#dce6d7" stroke="#779398" stroke-width="4"/>
+    <path d="M54 117q16-25 44-4-9 28-36 31z" fill="#e57959"/><path d="M58 111l29 27" stroke="#ffd39e" stroke-width="4"/>
+    <path d="M151 103h46" stroke="#c58e56" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="152" cy="157" r="11" fill="#e8b74f"/><circle cx="184" cy="157" r="11" fill="#81a272"/>
+    <path d="M219 54v35m-9-35v23m18-23v23" stroke="#8a9c9a" stroke-width="4"/>
+  </g>
+
+  <!-- Sports cone -->
+  <g transform="translate(512 512)" stroke-linejoin="round" filter="url(#shadow)">
+    <path d="M98 46h60l44 163H54z" fill="url(#coral)" stroke="#a94e3d" stroke-width="7"/>
+    <path d="M84 100h88l9 32H75z" fill="#fff0cd" stroke="#d2b38f" stroke-width="4"/>
+    <path d="M72 155h113l9 32H63z" fill="#fff0cd" stroke="#d2b38f" stroke-width="4"/>
+    <path d="M44 204q0-9 10-9h138q10 0 10 9v19H44z" fill="#d9664f" stroke="#9f493a" stroke-width="6"/>
+    <path d="M111 61h31" stroke="#ffd0a5" stroke-width="5"/>
+  </g>
+
+  <!-- Art easel -->
+  <g transform="translate(768 512)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M126 88l-60 142m71-142 64 142m-67-111v121" stroke="#986b45" stroke-width="10"/>
+    <rect x="70" y="29" width="123" height="126" rx="5" fill="#fff4d8" stroke="#a47a50" stroke-width="7"/>
+    <path d="M85 126q22-47 45-25 19-46 45-25v67H85z" fill="#79a18a"/>
+    <circle cx="123" cy="76" r="15" fill="#e7795d"/><path d="M148 59q23 6 21 27t-24 17q-12-11 3-44" fill="#e4bb50"/>
+    <path d="M57 155h152" stroke="#bd8c59" stroke-width="9"/>
+  </g>
+
+  <!-- Paint jars and brushes -->
+  <g transform="translate(0 768)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M38 110h56v95H38z" fill="#e7795d" stroke="#a94e43" stroke-width="6"/><path d="M33 96h66v20H33z" fill="#f0c46a" stroke="#a98343" stroke-width="5"/>
+    <path d="M105 128h57v77h-57z" fill="#78a396" stroke="#52796f" stroke-width="6"/><path d="M101 115h65v19h-65z" fill="#dbe7cd" stroke="#708b7d" stroke-width="5"/>
+    <path d="M173 108h47v97h-47z" fill="#7798b0" stroke="#506c7f" stroke-width="6"/><path d="M169 95h55v19h-55z" fill="#e1b95f" stroke="#9b8148" stroke-width="5"/>
+    <path d="M60 80l29-54m45 77 8-70m48 73 25-60" stroke="#bd8150" stroke-width="8"/>
+    <path d="M83 42l12-22 10 9-13 24m30-4 2-25 13 1 1 27m38-1 17-19 11 10-19 22" fill="#d58c6c" stroke="#986548" stroke-width="4"/>
+    <path d="M43 169h45m19 8h43m29-10h35" stroke="#ffe3b1" stroke-width="5"/>
+  </g>
+
+  <!-- Cardboard boxes -->
+  <g transform="translate(256 768)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M31 114l83-43 88 39-83 45z" fill="#dfb472" stroke="#98734a" stroke-width="6"/>
+    <path d="M31 114l88 41v73l-88-42z" fill="#bd8f58" stroke="#98734a" stroke-width="6"/>
+    <path d="M119 155l83-45v73l-83 45z" fill="#d2a566" stroke="#98734a" stroke-width="6"/>
+    <path d="M87 86l41-22 81 37-43 23z" fill="#f0cb8a" stroke="#98734a" stroke-width="6"/>
+    <path d="M128 123v30m-7-21 14-7" stroke="#f7e0ad" stroke-width="6"/>
+    <path d="M49 128l59 27m-59-14 59 27" stroke="#d7ad72" stroke-width="4"/>
+    <rect x="144" y="163" width="30" height="23" rx="3" fill="#f3e8ca"/><path d="M151 171h16m-16 6h12" stroke="#9b7954" stroke-width="3"/>
+  </g>
+
+  <!-- Classroom chair -->
+  <g transform="translate(512 768)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M76 53q0-9 10-9h91q10 0 10 9v96H76z" fill="url(#blue)" stroke="#4f7180" stroke-width="7"/>
+    <path d="M87 61v73m19-77v80m62-80v80m-44-80v80" stroke="#bfdae0" stroke-width="4" opacity=".7"/>
+    <path d="M69 142h119v29H69z" fill="#e1b765" stroke="#9b7847" stroke-width="6"/>
+    <path d="M83 171l-10 57m101-57 14 57m-83-54v51" stroke="#667b79" stroke-width="9"/>
+    <path d="M66 228h31m69 0h34" stroke="#566966" stroke-width="8"/>
+    <path d="M93 151h70" stroke="#f5dfa2" stroke-width="4"/>
+  </g>
+
+  <!-- School garden planter -->
+  <g transform="translate(768 768)" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)">
+    <path d="M36 140h188l-16 80H52z" fill="#ca7958" stroke="#96543f" stroke-width="7"/>
+    <path d="M28 125q0-9 10-9h184q10 0 10 9v23H28z" fill="#df9470" stroke="#96543f" stroke-width="7"/>
+    <path d="M60 119q-7-49 19-76 23 28 4 76m20 0q-7-62 29-91 29 42 5 91m25 0q-2-44 31-66 21 38-1 66" fill="#83a879" stroke="#577b58" stroke-width="7"/>
+    <path d="M84 118q-31-23-38-50 35 4 52 36m44 14q23-35 49-38-3 31-43 52" fill="#a6be86" stroke="#64855d" stroke-width="6"/>
+    <circle cx="138" cy="40" r="11" fill="#e7795d"/><circle cx="192" cy="72" r="8" fill="#e7bd51"/>
+    <path d="M54 163h151" stroke="#e8aa82" stroke-width="5"/>
+  </g>
+</svg>
